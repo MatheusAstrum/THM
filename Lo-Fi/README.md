@@ -8,7 +8,7 @@ Tempo: tempo de espera para cada request.
 
 ## LFI [¹]
 
-A vulnerabilidade de inclusão de arquivo permite que o invasor inclua um arquivo, geralmente explorando um mecanismo de “inclusão dinâmica de arquivos” implementado no arquivo de destino. Isso ocorre devido à falta de validação de entrada adequada, caracteres de travessia de diretório “../” sendo injetados, podendo causar a leitura do conteúdo de algum arquivo. Sensível. Também pode levar a:
+A vulnerabilidade de inclusão de arquivo permite que o invasor inclua um arquivo, geralmente explorando um mecanismo de “inclusão dinâmica de arquivos” implementado no arquivo de destino. Isso ocorre devido à falta de validação de entrada adequada, caracteres de travessia de diretório “../” sendo injetados, podendo causar a leitura do conteúdo de algum arquivo sensível. Também pode levar a:
 
  - Execução de código no servidor web;
  - Execução de código no lado do cliente, como JavaScript, que pode levar a ataques como XSS;
