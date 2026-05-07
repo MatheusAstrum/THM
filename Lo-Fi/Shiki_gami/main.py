@@ -8,7 +8,7 @@ green = '\033[32m'
 
 def Requisicao(Url, Tempo):
 
-    palavra_chave = ["root:", "flag", "banana", "euteamo"]#criar um arquivo separado
+    palavra_chave = ["root:", "flag"]
 
     try:
         with open("dir.txt", "r") as f:
